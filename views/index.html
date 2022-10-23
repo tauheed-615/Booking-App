@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Booking Application</title>
+  </head>
+  <body>
+    <div id="div-outer">
+      <div id="div-mesg">
+        <form id="my-form">
+          <fieldset id="field">
+            <legend>Booking App</legend>
+            <h3 id="watermark">CALL</h3>
+
+            <h2 id="h2">Book a call</h2>
+
+            <h4 id="h4">
+              Book a call slot and our representative will call you within 1hr
+              of selected time
+            </h4>
+
+            <hr />
+
+            <div id="div-form">
+              <label>NAME</label>
+              <input type="text" id="input-name" placeholder="enter the name" />
+              <br><br>
+              <label>Email</label>
+              <input
+                type="email"
+                id="input-email"
+                placeholder="enter the email"
+              />
+              <br><br>
+              <label>Phone</label>
+              <input
+                type="tel"
+                id="input-phone"
+                placeholder="enter the phone"
+              />
+              <br><br>
+              <button type="submit" id="btnid">SUBMIT</button>
+            </div>
+          </fieldset>
+        </form>
+        <ul id="userlist"></ul>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>
